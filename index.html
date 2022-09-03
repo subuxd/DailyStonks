@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DailyStonks</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon.ico">
+
+    <!-- Google Fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Stylesheets  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome  -->
+    <script src="https://kit.fontawesome.com/2e240cbab8.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Scripts  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+<body>
+
+    <section id="title">
+        <div class="container-fluid">
+        <!--we cannot change this class as this is a bootstrap class that makes our site responsive so to reduce the padding from top we can target the id=title-->
+        <!-- Navbar  -->
+        
+        <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="">dailystonks</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="#navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#footer">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cta">Download</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </nav>
+
+            <!-- Title  -->
+
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <h1 class="big-heading">Get well researched stocks at one click.</h1>
+                    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i>
+                        Download</button>
+                    <button type="button" class="btn btn-outline-light btn-lg download-button"><i
+                            class="fa-brands fa-google-play"></i> Download</button>
+                </div>
+
+                <div class="col-lg-6">
+                    <img class="title-image"
+                        src="https://media3.giphy.com/media/nFMnlDJB8pJ82sfnnW/giphy.gif?cid=ecf05e4795a8az3ppjc9pcif1fvv6bzsnn9rtqpxggmj2z8e&rid=giphy.gif&ct=g"
+                        alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Features  -->
+
+    <section id="features">
+        <!-- <div class="container-fluid"> -->
+        <div class="row">
+            <div class="col-lg-4 feature-box">
+                <i class="icon fa-solid fa-circle-check fa-4x"></i>
+                <h3 class="feature-title">Easy to use.</h3>
+                <p>So easy to use, even your child could do it.</p>
+            </div>
+            <div class="col-lg-4 feature-box">
+                <i class="icon fa-brands fa-wpexplorer fa-4x"></i>
+                <h3 class="feature-title">Explore & Invest</h3>
+                <p>Invest in your favourite stocks now.</p>
+            </div>
+            <div class="col-lg-4 feature-box">
+                <i class="icon fa-solid fa-heart fa-4x"></i>
+                <h3 class="feature-title">Seamless online trading experience.</h3>
+                <p>Smooth as fuck</p>
+            </div>
+        </div>
+        <!-- </div> -->
+    </section>
+
+    <!-- Testimonials  -->
+
+    <section id="testimonials">
+        <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2 class="testimonial-text">I love dailystonks recommendation. 17% ROR</h2>
+                    <img class="testimonial-image"
+                        src="https://media0.giphy.com/media/bMycGOQLESDCEnLNUz/giphy.gif?cid=ecf05e478i9fthy1en8qife8kndmgy0anmfubohjn1mxccba&rid=giphy.gif&ct=g"
+                        alt="">
+                    <em>Rourkela, Odisha</em>
+                </div>
+                <div class="carousel-item">
+                    <h2 class="testimonial-text">Research is great, with
+                        dailystonks help I'm able to invest.</h2>
+                    <img class="testimonial-image" src="Images/entrepreneur.png" alt="entrepreneur-img">
+                    <em>Bangalore, Karnataka</em>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+    </section>
+
+    <!-- Press  -->
+
+    <section id="press">
+        <img class="press-logo" src="Images/forbes.png" alt="forbes-logo">
+        <img class="press-logo" src="Images/mc.png" alt="moneycontrol-logo">
+        <img class="press-logo" src="Images/tc.png" alt="techcrunch-logo">
+        <img class="press-logo" src="Images/ys.png" alt="yourstory-logo">
+    </section>
+
+    <!-- Pricing  -->
+
+    <section id="pricing">
+
+        <h2 class="section-heading">A Plan for Every Investor's Needs</h2>
+        <p>Simple and affordable price plans for you.</p>
+
+        <div class="row">
+            <!-- Card-1 -->
+            <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Basic</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="price-text">Free</h2>
+                        <p>5 stock recommendations Per Day</p>
+                        <p>10 Doubts Per Day</p>
+                        <p>Unlimited App Usage</p>
+                        <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card-2 -->
+            <div class="pricing-column col-lg-4 col-md-6">
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Gold</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="price-text">Rs499 / mo</h2>
+                        <p>Unlimited stocks reccomendation</p>
+                        <p>Unlimited Doubts</p>
+                        <p>Unlimited App Usage</p>
+                        <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Card-3 -->
+            <div class="pricing-column col-lg-4 col-md-12">
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Platinum</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="price-text">Rs999 / mo</h2>
+                        <p>You'll be notified first</p>
+                        <p>Unlimited stocks reccomendation</p>
+                        <p>Unlimited Doubts</p>
+                        <p>Unlimited App Usage</p>
+                        <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Call to Action  -->
+
+    <section id="cta">
+        <div class="container-fluid">
+            <h3 class="big-heading">Find the Right Stocks to Invest Today.</h3>
+            <button class="download-button btn btn-lg btn-dark" type="button"><i class="fa-brands fa-apple"></i>
+                Download</button>
+            <button class="download-button btn btn-lg btn-light" type="button"><i class="fa-brands fa-google-play"></i>
+                Download</button>
+        </div>
+    </section>
+
+    <!-- Footer  -->
+
+    <footer id="footer">
+        <div class="container-fluid">
+            <i class="social-icon fa-brands fa-facebook"></i>
+            <i class="social-icon fa-brands fa-twitter"></i>
+            <i class="social-icon fa-brands fa-instagram"></i>
+            <i class="social-icon fa-solid fa-envelope"></i>
+            <p>© Copyright DailyStonks</p>
+            <p>Made with ❤️ by <a class="link" href="CSS - My Site\index.html" target="_blank">Subham</a></p>
+        </div>
+    </footer>
+
+    
+</body>
+
+</html>
