@@ -120,8 +120,13 @@ p {
     line-height: 1.5 !important;
 }
 
-.testimonial-image {
+.testimonial-image1 {
     width: 27%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-image2 {
+    width: 22%;
     border-radius: 100%;
     margin: 20px;
 }
@@ -193,4 +198,71 @@ p {
         height: 95%;
         border-radius: 10px;
     }
+}
+
+
+
+
+
+
+
+/* Contact Page */
+
+#wrapper{
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: linear-gradient(-45deg,#A66CFF,#A66CFF);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.form{
+	width: 440px;
+	height: 77vh;
+	min-height: 450px;
+	border-radius: 10px;
+	box-shadow:  3px 3px 56px black;
+             /*-13px -13px 26px #306b68;*/
+}
+.form h2{
+	padding: 20px;
+	text-align: center;
+	color: black;
+}
+.form input,textarea{
+	border: none;
+	border-radius: 5px;
+	margin-left: 2%;
+	width: 80%;
+	padding: 5px 5%;
+	margin-top: 10px;
+	height: 40px;
+	color: black;
+	background: white;
+}
+.form button{
+	margin: 5%;
+	border: none;
+	background: transparent;
+	padding: 10px 20px;
+	box-shadow:  1px 1px 6px black;
+	border-radius: 5px;
+	color: black;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background-color: #8b58d7;
+    color: whitesmoke;
+    
+}
+
+
+.contact-style{
+    font-family: 'Josefin Sans', sans-serif;
 }
